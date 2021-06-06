@@ -14,133 +14,151 @@
 
 <body>
 
+
   <div class="header" style="background-image: url('img/universe.jpg');">
- 
- <h1 class= "title">Nicolas Vega</h1>
 
-  <nav class="titlelist">
-    <ul class="toplist">
-      <li><a href="#home">Home</a></li>
-      <!-- <li><a href="#lantitle">languages</a></li> -->
-      <li><a href="#portfolio">Portfolio</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-  </nav>
-  <div class="clearfix">
+
+    <h1 id="home" class="title">Nicolas Vega</h1>
+    <!-- <object data="svg/astro.svg" width="300" height="300"> </object> -->
+
+
+    <nav class="titlelist">
+      <ul class="toplist">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="clearfix">
+    </div>
+
+
   </div>
-
-
-</div>
 
   <main class="container">
     <h1 class="welcome">Welcome to my Online Portfolio</h1>
     <section class="section">
-      <p class="intro">I am a passionate Front-End Developer. I provide out of the box solutions for your online presence.
+      <p class="intro">I am a passionate Front-End Developer. I provide out of the box solutions for your online
+        presence.
         I have worked on more than 50 projects in local market and on different platforms. I am proficient in HTML, CSS,
         SASS, JavaScript, GitHub, BootStraps, etc.</p>
-  
 
-    
- 
+
+
+
 
     </section>
     <h1 id="portfolio">Portfolio</h1>
     <article class="flex">
       <div class="templates">
-        
-        <h2>Business  WebSite</h2>
+
+        <h2>Business WebSite</h2>
         <p>This project shows the front page of a marketing website meant for a specific business I'm interested in
         </p>
-        <img class="right" src="img/pro6.png" alt="Marketing">
+        <a href="https://gotetsu.github.io/WebApp/" target="_blank">
+          <img class="right" src="img/pro6.png" alt="Marketing">
+        </a>
       </div>
 
       <div class="templates">
-      
+
         <h2>Baisc Website</h2>
         <p>This project was my first project ever, which shows a simply and basic functioning website
         </p>
-        <img src="img/pro1.PNG" alt="Search">
+        <a href="https://gotetsu.github.io/My-First-Project/" target="_blank">
+          <img src="img/pro1.PNG" alt="Baisc Website">
+        </a>
       </div>
       <div class="templates">
-      
+
         <h2>Photo Gallery</h2>
         <p>This project shows pictures from a recent trip to the viewer and allows them to easily navigate through
           photos.</p>
-          <img src="img/pro2.PNG" alt="Travel">
+        <a href="https://gotetsu.github.io/Unit-5/" target="_blank">
+          <img src="img/pro2.PNG" alt="Photo Gallery">
+        </a>
       </div>
 
       <div class="templates">
-        
+
         <h2>Basic CSS Display Template</h2>
         <p> This Website can be use as a simple website template for users to use. </p>
-          <img src="img/pro3.PNG" alt="Favorite">
+        <a href="https://gotetsu.github.io/Unit2/" target="_blank">
+          <img src="img/pro3.PNG" alt="Basic CSS Display">
+        </a>
       </div>
 
       <div class="templates">
-       
+
         <h2>Game App</h2>
         <p>This project Let's users play a word guessing game </p>
-        <img src="img/pro4.PNG" Photo">
+        <a href="https://gotetsu.github.io/Unit-6/" target="_blank">
+          <img src="img/pro4.PNG" alt="Game App">
+        </a>
       </div>
       <div class="templates">
-      
+
 
         <h2>Ajax - API</h2>
         <p>This project uses mapping APIs to bring free random conatcs for some to use</p>
-        <img src="img/pro5.PNG" alt="Calculator">
+        <a href="https://gotetsu.github.io/unit-8/" target="_blank">
+          <img src="img/pro5.PNG" alt="API">
+        </a>
       </div>
       </span>
     </article>
     <section>
       <hr class="hr">
       <div id="gmail" class="form-modal row-nav py-3">
-          <button class="form-msg" onclick="openForm()">Contact Me</button>
+        <button class="form-msg" onclick="openForm()">Contact Me</button>
 
-          <div class="form-popup hidden" id="myForm">
-              <form action="index.html" method="POST" class="form form-container">
+        <div class="form-popup hidden" id="myForm">
+          <form action="index.html" method="POST" class="form form-container">
 
-                  <button id="hireme" type="button" class="modal-close cancel" onclick="closeForm()">X</button>
-                  <h5 class="text pt-3">Contact me here</h5>
+            <button id="hireme" type="button" class="modal-close cancel" onclick="closeForm()">X</button>
+            <h5 class="text pt-3">Contact me here</h5>
 
-                  <div class="form-group">
-                      <label class="name" for="name"><b>Name:</b></label>
-                      <input type="text" placeholder="Enter Name" class="form-control" id="name" required>
-                  </div>
+            <div class="form-group">
+              <label class="name" for="name"><b>Name:</b></label>
+              <input type="text" placeholder="Enter Name" class="form-control" id="name" required>
+            </div>
 
-                  <div class="form-group">
-                      <label class="name" for="email"><b>Email:</b></label>
-                      <input type="email" placeholder="Enter Email" class="form-control" id="email" required>
-                  </div>
+            <div class="form-group">
+              <label class="name" for="email"><b>Email:</b></label>
+              <input type="email" placeholder="Enter Email" class="form-control" id="email" required>
+            </div>
 
-                  <div class="form-group">
-                      <label class="name" for="psw"><b>Password:</b></label>
-                      <input type="password" placeholder="Enter Password" class="form-control" id="psw" required>
-                  </div>
+            <div class="form-group">
+              <label class="name" for="psw"><b>Password:</b></label>
+              <input type="password" placeholder="Enter Password" class="form-control" id="psw" required>
+            </div>
 
-                  <div class="form-group">
-                      <h5 class="text">How can I help you?</h5>
-                      <textarea class="text-area" name="subject" id="subject"></textarea>
+            <div class="form-group">
+              <h5 class="text">How can I help you?</h5>
+              <textarea class="text-area" name="subject" id="subject"></textarea>
 
-                  </div>
+            </div>
 
-                  <div class="form-group">
-                      <button type="submit" class="form-btn">Login</button>
-                      <a class="form-btn" href="mailto:nicosupremetech@gmail.com">Submit</a>
-                  </div>
+            <div class="form-group">
+              <button type="submit" class="form-btn">Login</button>
+              <a class="form-btn" href="mailto:nicosupremetech@gmail.com">Submit</a>
+            </div>
 
-              </form>
-          </div>
+          </form>
+        </div>
       </div>
-  </section>
+    </section>
 
 
-  <footer class="footer p-2">
-      <div id="contact" class="col-md text-md-center">
-          <p class="copyright"><small>&copy;Nicolas Vega   2021</small><a href="#"></a></p>
+    <footer class="footer p-2">
+      <div class="col-md text-md-center">
+        <a id="contact" href="#home">Home</a>
+        <p class="copyright"><small>&copy;Nicolas Vega 2021</small><a href="#"></a></p>
+
       </div>
-  </footer>
+    </footer>
 
-  <script src="js/app.js"></script>
+    <script src="js/app.js"></script>
 </body>
 
 </html>

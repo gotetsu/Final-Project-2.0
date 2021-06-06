@@ -1,5 +1,5 @@
 .form-msg {
-    margin-top: 100px;
+    margin-top: 50px;
     clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
     padding: 80px 80px;
     font-size: 20px;
@@ -20,7 +20,6 @@
 }
 
 .form-modal {
-  
     border: none;
     display: flex;
     flex-direction: column;
@@ -29,7 +28,6 @@
 }
 
 form {
-    
     width: 200px;
     border: #e4fd06 2px solid;
     background-color: rgba(12, 247, 227, 0.65);
@@ -82,20 +80,14 @@ form {
 
 /* ```````````````````````FOOTER`````````````````````` */
 
-body {
-    position: relative;
-    min-height: 100vh;
-    padding-bottom: 2.5rem;
-}
-
 footer, .p-2 {
-    background-color: #d7da2d;
-    text-align: center;
-}
-
-footer {
-    position: absolute;
     bottom: 0;
-    width: 100%;
+    width: 30%;
     height: 3.5rem;
 }
+
+@media (min-width: 1024px) {
+    .form-msg {
+        position: absolute;
+        bottom: 1320px;
+    }
