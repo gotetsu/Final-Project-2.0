@@ -1,0 +1,101 @@
+.form-msg {
+    margin-top: 100px;
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+    padding: 80px 80px;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: #000000;
+    color: rgb(238, 255, 0);
+    transition: 0.2s ease-in-out;
+    outline: none;
+    cursor: pointer
+}
+
+.form-msg:hover {
+    text-decoration: none;
+    background-color: #d9ff01;
+    color: #000;
+    transition: transform 0.5s;
+    transform: rotate(360deg);
+}
+
+.form-modal {
+  
+    border: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center
+}
+
+form {
+    
+    width: 200px;
+    border: #e4fd06 2px solid;
+    background-color: rgba(12, 247, 227, 0.65);
+    border-radius: 7px
+}
+
+.text-area {
+    width: 100%;
+    height: 200px
+}
+
+.text, .name {
+    color: #b9ca1e;
+    text-align: center
+}
+
+.form-popup {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    right: 15px;
+    border: 5px solid #c8ff01;
+    z-index: 9
+}
+
+.open-button:hover {
+    background-color: #ffe606;
+    opacity: 0.6;
+    transition: 1s
+}
+
+.form-btn {
+    color: rgb(250, 171, 0);
+    background-color: rgb(0, 0, 0);
+    outline: none
+}
+
+.form-container {
+    max-width: 300px;
+    padding: 10px;
+    background-color: rgb(0, 0, 0);
+}
+
+.form-container input[type=text]:focus, .form-container input[type=password]:focus {
+    background-color: rgb(241, 255, 117);
+    display: grid;
+}
+
+/* ```````````````````````CONTACT ME`````````````````````` */
+
+/* ```````````````````````FOOTER`````````````````````` */
+
+body {
+    position: relative;
+    min-height: 100vh;
+    padding-bottom: 2.5rem;
+}
+
+footer, .p-2 {
+    background-color: #d7da2d;
+    text-align: center;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 3.5rem;
+}

@@ -5,7 +5,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Nicolas Vega Online Portfolio</title>
-  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/app.css">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Chilanka&display=swap" rel="stylesheet">
 
@@ -13,109 +14,133 @@
 
 <body>
 
-
-  <h1 class="title">Nicolas Vega</h1>
-  
+  <div class="header" style="background-image: url('img/universe.jpg');">
+ 
+ <h1 class= "title">Nicolas Vega</h1>
 
   <nav class="titlelist">
     <ul class="toplist">
       <li><a href="#home">Home</a></li>
-      <li><a href="#lantitle">languages</a></li>
+      <!-- <li><a href="#lantitle">languages</a></li> -->
       <li><a href="#portfolio">Portfolio</a></li>
       <li><a href="#contact">Contact</a></li>
     </ul>
-    <img class="profilepic" src="image/profile.png" alt="Profile Pic">
   </nav>
   <div class="clearfix">
-    <p class="intro">Hi! I'm a front-end developer who loves responsive design and css. I recently finished learning front-end web
-      developer Treehouse and I'm excited to put all my skills and knowledge to use.</p>
- 
+  </div>
+
+
 </div>
 
-  <main>
-    
+  <main class="container">
+    <h1 class="welcome">Welcome to my Online Portfolio</h1>
     <section class="section">
+      <p class="intro">I am a passionate Front-End Developer. I provide out of the box solutions for your online presence.
+        I have worked on more than 50 projects in local market and on different platforms. I am proficient in HTML, CSS,
+        SASS, JavaScript, GitHub, BootStraps, etc.</p>
+  
 
-      <h1 id="lantitle">languages</h1>
-      <div class="lan">
-      <p>These are the main Programming Languages that I know.</p>
-      <ul class="lan1">
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>Javascript</li>
-        <li>Python</li>
-      </ul>
-    </div>
+    
+ 
 
     </section>
     <h1 id="portfolio">Portfolio</h1>
     <article class="flex">
-<div class="templates">
-      <img class="right"src="img/pro6.png" alt="Marketing">
-      <h2 >Marketing Page</h2>
-      <p >This project shows the front page of a marketing website meant for a specific business I'm interested in.
-      </p>
-    </div>
-
       <div class="templates">
-      <img src="img/pro1.PNG" alt="Search">
-      <h2 >Search Page</h2>
-      <p >This project searches through a specific database to find information that the user is trying to look up.
-      </p>
-    </div>
-      <div class="templates">
-      <img src="img/pro2.PNG" alt="Travel">
-      <h2>Travel App</h2>
-      <p>This project compares travel times based on different transportation methods and tells you the best one.
-      </p>
-    </div>
-
-      <div class="templates">
-      <img src="img/pro3.PNG" alt="Favorite">
-      <h2>Map of Favorite Spots</h2>
-      <p>This project uses mapping APIs to plot points for my favorite spots in the city for a do-it-yourself
-        walking tour.</p>
+        
+        <h2>Business  WebSite</h2>
+        <p>This project shows the front page of a marketing website meant for a specific business I'm interested in
+        </p>
+        <img class="right" src="img/pro6.png" alt="Marketing">
       </div>
 
-        <div class="templates">
-      <img src="img/pro4.PNG"Photo">
-      <h2>Photo Gallery</h2>
-      <p>This project shows pictures from a recent trip to the viewer and allows them to easily navigate through
-        photos.</p>
+      <div class="templates">
+      
+        <h2>Baisc Website</h2>
+        <p>This project was my first project ever, which shows a simply and basic functioning website
+        </p>
+        <img src="img/pro1.PNG" alt="Search">
       </div>
-        <div class="templates">
-      <img src="img/pro5.PNG" alt="Calculator">
-   
-      <h2>Calculator</h2>
-      <p>Someone can enter in the numbers they want, and press the big blue button and get the result.</p>
-    </div>
-  </span>
+      <div class="templates">
+      
+        <h2>Photo Gallery</h2>
+        <p>This project shows pictures from a recent trip to the viewer and allows them to easily navigate through
+          photos.</p>
+          <img src="img/pro2.PNG" alt="Travel">
+      </div>
+
+      <div class="templates">
+        
+        <h2>Basic CSS Display Template</h2>
+        <p> This Website can be use as a simple website template for users to use. </p>
+          <img src="img/pro3.PNG" alt="Favorite">
+      </div>
+
+      <div class="templates">
+       
+        <h2>Game App</h2>
+        <p>This project Let's users play a word guessing game </p>
+        <img src="img/pro4.PNG" Photo">
+      </div>
+      <div class="templates">
+      
+
+        <h2>Ajax - API</h2>
+        <p>This project uses mapping APIs to bring free random conatcs for some to use</p>
+        <img src="img/pro5.PNG" alt="Calculator">
+      </div>
+      </span>
     </article>
-    <div id="contact" class="contact">
-      <h1>Contact</h1>
-      <p>If you're interested in chatting or want more information about what I've been working on, I'd love to hear
-        from you!</p>
-        <div class="phone">
-      <p>Phone +1 (111) 555-1234</p>
-      <p>Email <a href="mailto:email@yoursite.com" subject="hello">email@yoursite.com</a></p>
-    </div>
-    </div>
+    <section>
+      <hr class="hr">
+      <div id="gmail" class="form-modal row-nav py-3">
+          <button class="form-msg" onclick="openForm()">Contact Me</button>
 
-  </main>
+          <div class="form-popup hidden" id="myForm">
+              <form action="index.html" method="POST" class="form form-container">
 
-  <footer>
-<div class="footname">
-    <p>Nicolas Vega</p>
-    <p><a id="back" href="#home">Back to Top</a></p>
-    <ul class="footer" >
-      <li><a href="#top">Home</a></li>
-      <li><a href="#lantitle">languages</a></li>
-      <li><a href="#portfolio">Portfolio</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-  </div>
+                  <button id="hireme" type="button" class="modal-close cancel" onclick="closeForm()">X</button>
+                  <h5 class="text pt-3">Contact me here</h5>
+
+                  <div class="form-group">
+                      <label class="name" for="name"><b>Name:</b></label>
+                      <input type="text" placeholder="Enter Name" class="form-control" id="name" required>
+                  </div>
+
+                  <div class="form-group">
+                      <label class="name" for="email"><b>Email:</b></label>
+                      <input type="email" placeholder="Enter Email" class="form-control" id="email" required>
+                  </div>
+
+                  <div class="form-group">
+                      <label class="name" for="psw"><b>Password:</b></label>
+                      <input type="password" placeholder="Enter Password" class="form-control" id="psw" required>
+                  </div>
+
+                  <div class="form-group">
+                      <h5 class="text">How can I help you?</h5>
+                      <textarea class="text-area" name="subject" id="subject"></textarea>
+
+                  </div>
+
+                  <div class="form-group">
+                      <button type="submit" class="form-btn">Login</button>
+                      <a class="form-btn" href="mailto:nicosupremetech@gmail.com">Submit</a>
+                  </div>
+
+              </form>
+          </div>
+      </div>
+  </section>
+
+
+  <footer class="footer p-2">
+      <div id="contact" class="col-md text-md-center">
+          <p class="copyright"><small>&copy;Nicolas Vega   2021</small><a href="#"></a></p>
+      </div>
   </footer>
 
+  <script src="js/app.js"></script>
 </body>
 
 </html>
