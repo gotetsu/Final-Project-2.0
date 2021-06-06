@@ -72,11 +72,12 @@
  img {
      width: 100%;
      margin-bottom: 45px;
-     transition: all 1.2s;
+     transition: all 0.9s;
+     filter: blur(10px);
  }
 
  img:hover {
-    opacity: 0.3;
+    filter: blur(0);
      border-radius: 50%;
  }
 
@@ -103,6 +104,10 @@
  @media (min-width: 1024px) {
      .templates {
          width: 33%;
+     }
+     .title {
+         color: rgb(243, 246, 40);
+         text-shadow: 4px 4px #000000;
      }
      .container {
          margin: 120px;
