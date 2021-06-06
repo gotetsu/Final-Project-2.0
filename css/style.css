@@ -40,7 +40,6 @@
  }
 
  .toplist li {
-     background-color: transparent display: block;
      padding: 10px;
      margin: 10px;
      margin-right: 38px;
@@ -77,9 +76,10 @@
  }
 
  img:hover {
-     transform: scale(110%);
+    opacity: 0.3;
      border-radius: 50%;
  }
+
 
  @media (min-width: 768px) {
      .container {
