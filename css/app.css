@@ -86,9 +86,3 @@ footer, .p-2 {
     height: 3.5rem;
 }
 
-@media (min-width: 1024px) {
-    .form-msg {
-        position: absolute;
-        bottom: 1320px;
-    }
-}

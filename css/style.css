@@ -118,4 +118,8 @@
      footer {
          margin-top: 50px;
      }
+     .form-msg {
+        position: absolute;
+        bottom: 1320px;
+    }
  }
