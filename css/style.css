@@ -73,7 +73,6 @@
      width: 100%;
      margin-bottom: 45px;
      transition: all 0.9s;
-     filter: blur(10px);
  }
 
  img:hover {
@@ -82,6 +81,12 @@
  }
  .gift {
     border-radius: 50%;
+    
+}
+.social {
+    display: flex;
+    justify-content: center;
+    
     
 }
 
