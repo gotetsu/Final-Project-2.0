@@ -76,22 +76,26 @@
  }
 
  img:hover {
-    filter: blur(0);
+     filter: blur(0);
      border-radius: 50%;
  }
+
  .gift {
-    border-radius: 50%;
-    
-}
-.social {
-    display: flex;
-    justify-content: center;
-    
-    
-}
+     border-radius: 50%;
+ }
 
+ .social {
+     display: flex;
+     justify-content: space-evenly;
+ }
 
+ svg {
+     width: 110%;
+ }
 
+ .logo:hover {
+     fill: rgb(9, 240, 248);
+ }
 
  @media (min-width: 768px) {
      .container {
@@ -129,6 +133,4 @@
      footer {
          margin-top: 50px;
      }
-   
-   
  }
