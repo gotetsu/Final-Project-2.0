@@ -97,6 +97,13 @@
      fill: rgb(9, 240, 248);
  }
 
+.contact, a:hover {
+    color: rgb(6, 51, 251);
+    font-size: large;
+    text-transform: uppercase;
+    
+    
+}
  @media (min-width: 768px) {
      .container {
          margin: 35px;
